@@ -581,6 +581,7 @@ video{
 
 	margin-top: 30px;
 	margin-left: 400px;
+	
 
 	
 
@@ -591,6 +592,7 @@ video{
     width: 316px;
     height: 49px;
     padding: 27px;
+
    
 
 	
@@ -600,9 +602,11 @@ video{
     width: 316px;
     height: 49px;
     padding: 27px;
-
-	
+   
+ 
 }
+
+
 
 .title{
     
@@ -636,15 +640,91 @@ video{
 }
 
 
-
-
-
-
 /*Form Footer*/
 
 #footer{
 
 	height: 300px;
 	background-color: #141414;
+	padding-top: 30px;
 }
 
+.karimov_design{
+    
+	margin-left: 98px;
+	padding-top: 50px;
+	color: white;
+	line-height: 1.8;
+	display: inline-block;
+
+}
+
+.hello_pirol{
+
+	margin-left: 280px;
+	line-height: 1.8;
+	display: inline-block;
+
+
+
+}
+
+.mail a{
+
+	color: white;
+	text-decoration: none;
+
+}
+
+.tel a{
+
+	color: white;
+	text-decoration: none;
+}
+
+.menu_footer{
+    
+	margin-left: 175px;
+	line-height: 1.8;
+	display: inline-block;
+	padding-top: 50px;
+
+	
+}
+
+
+
+.menu_footer ul li a {
+
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.men_news{
+
+	margin-left: 58px;
+	line-height: 1.8;
+	display: inline-block;
+}
+
+.men_news ul li a {
+
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.footer_sosial{
+
+	margin-left: 180px;
+	line-height: 1.8;
+	display: inline-block;
+}
+
+.footer_sosial ul li a{
+
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+}
