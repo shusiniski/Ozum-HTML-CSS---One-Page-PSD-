@@ -1,0 +1,650 @@
+
+/*header*/
+*{
+	box-sizing: border-box;
+}
+body{
+
+	font-family: Arial,sans-serif;
+}
+
+img{
+
+	max-width: 100%;
+}
+#header{
+
+	width: 100;
+	height: 400px;
+	background-color: #e9e9e9;
+}
+.logo{
+
+	width:31px;
+	height: 41.28px;
+	display: inline-block;
+	margin-left: 97px;
+	margin-top: 10px;
+}
+
+.mesafe{
+
+	width: 521px;
+	display: inline-block;
+}
+.menu{
+
+	display: inline-block;
+	margin-left: 200px;
+
+}
+.menu ul{
+
+}
+.menu ul li{
+
+	float: left;
+	padding-left: 34px;
+}
+
+.menu ul li a{
+
+	text-decoration: none;
+	color: black;
+}
+
+.text{
+
+	float: right;
+	padding-right: 530px;
+	padding-top: 78px;
+	
+}
+.text h1{
+
+	
+    margin-bottom: 46px;
+	font-size: 32px;
+	font-weight: bold;
+}
+.text #contact_us{
+
+	width: 180px;
+	height: 54px;
+	background: #10c9c3;
+	color: white;
+	text-align: center;
+	margin-top: 45px;
+	border-radius: 1px solid #10c9c3;
+}
+
+/* About*/
+
+#about_us{
+
+	text-align: center;
+	padding-top: 100px
+
+}
+
+#about h1{
+
+	font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 49px;
+
+
+
+}
+#about p {
+
+	font-size: 13px;
+}
+#about img {
+
+	margin-top: 49px;
+}
+
+/* Skills*/
+
+#profes_skills{
+
+    
+    
+	margin-top: 120px;
+	display: flex;
+	
+
+	
+	
+}
+
+#profes_skills .skills{
+
+	background:#f8f9f9;
+	width: 50%;
+
+
+}
+
+
+.skills h1{
+
+	
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 2.8;
+	
+	
+}
+
+.skills p{
+
+	
+	font-size: 12px;
+	line-height: 2.8;
+	
+}
+
+.container{
+
+	width: 100%;
+	background-color: #ddd;
+	margin-bottom: 50px;
+	height: 16px;
+}
+
+.skills{
+    width: 50%;
+	padding: 60px;
+	flex: 1;
+
+}
+
+.skills_ui{
+
+	width: 75%;
+	height: 100%;
+	background:#10c9c3;
+
+}
+
+.skills_web{
+
+	width: 90%;
+	height: 100%;
+	background:#10c9c3;
+
+}
+
+.skills_marketting{
+
+	width: 65%;
+	height: 100%;
+	background:#10c9c3;
+
+}
+
+/* Picture Skills*/
+
+
+.sekil_one{
+
+	width: 50%;
+	flex: 1;
+    background-image: url(../img/coffee.jpg);
+    background-size: cover;
+    background-position: 0 -170px;
+    
+
+}
+
+/*Iconlar*/
+
+#icons_number{
+
+	height: 239px;
+	background-color: #10c9c3;
+
+}
+
+.icon_box{
+
+	width: 25%;
+	float: left;
+	padding: 81px;
+	text-align: center;
+
+
+}
+.icon-bar{
+
+	font-size: 48px;
+	color: white;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.icon-bar i {
+
+	margin-top: -2px;
+}
+
+
+
+
+.metn_one{
+
+	color: white;
+	display: inline-block;
+
+
+}
+
+.metn_one span{
+
+	display: block;
+}
+.reqem{
+
+	font-size: 27px;
+	float: left;
+	width: 100%;
+	line-height: 30px;
+	text-align: left;
+}
+.metn{
+
+	text-transform: uppercase;
+	text-align: left;
+}
+
+
+/*Works*/
+
+#works{
+    height: 652px;
+    
+	
+}
+
+.work_portfol{
+   
+   width: 100%;
+
+
+
+}
+
+.work_one{
+
+	
+   width: 25%;
+   height: 350px;
+   background-color: grey;
+   float: left;
+}
+.work_two{
+
+	
+   width: 25%;
+   height: 350px;
+   background-color: white;
+   float: left;
+}
+
+.work_three{
+
+	
+   width: 25%;
+   height: 350px;
+	background-color: grey;
+	float: left;
+}
+.work_four{
+
+	
+   width: 25%;
+   height: 350px;;
+	background-color: white;
+	float: left;
+}
+.work_five{
+
+	width: 25%;
+	height: 301px;
+	background-color: white;
+	float: left;
+}
+.work_six{
+
+	width: 25%;
+	height: 301px;
+	background-color: black;
+	float: left;
+}
+.eyes-icon{
+
+	color: white;
+	text-align: center;
+	padding-top:30%;
+	font-size: 48px;
+}
+.work_seven{
+
+	width: 25%;
+	height: 301px;
+	background-color: white;
+	float: left;
+}
+.work_eight{
+
+	width: 25%;
+	height: 301px;
+	background-color: grey;
+	float: left;
+}
+
+/*load*/
+#loads{
+
+	height: 93px;
+	background:#e9e9e9;
+}
+ .load{
+    
+	text-align: center;
+	
+}
+
+.load h4{
+
+	padding-top: 35px;
+}
+
+/* Our Work*/
+#our_work{
+
+	margin-top: 80px;
+	text-align: center;
+	padding-top: 100px;
+   
+
+}
+.work_process{
+
+      
+}
+
+.work_process h1{
+	font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 49px;
+
+ 
+}
+
+.work_process p{
+
+	font-size: 18px;
+}
+/*.play_icon {
+  
+    width: 60px;
+    height: 60px;
+    font-size: 60px;
+    border-radius: 50%;
+    background: #10c9c3;
+    color: white;
+  
+}
+
+.video_play{
+
+	
+}*/
+
+
+video{
+
+  width: 1167px;
+  height: 574px;
+  padding-top: 52px;
+
+}
+
+.btn-play{
+
+	position: absolute;
+    left: 48.5%;
+    margin-top: 14%;
+    border-radius: 50%;
+    font-size: 55px;
+    background-color:#10c9c3;
+    color: white;
+}
+
+/* Services */
+
+#services {
+
+	height: 572px;
+	background-color: #f5f5f5;
+	margin-top: 100px;
+}
+
+.servicess_icon{
+
+
+	width: 100%;
+	padding-top: 50px;
+
+}
+
+.ui_design{
+
+	 margin-left: 244px;
+    /* display: inline-block; */
+    float: left;
+    margin-bottom: 60px;
+    text-align: center;
+
+
+}
+
+.ui_design span{
+
+	margin-bottom: 19px;
+    display: block;
+
+}
+
+.ui_design h3{
+
+	font-size: 12px;
+    color: rgb(25, 25, 25);
+    text-transform: uppercase;
+    line-height: 2.5;
+    display: block;
+
+}
+
+.ui_design p{
+
+	font-size: 16px;
+	color: :rgb(120,120,120);
+	line-height: 1.5;
+	
+}
+.ui_design span{
+
+
+	padding-left: 15px;
+    font-size: 38px;
+    color: #9f9f9f;
+}
+
+
+/*Section Testimonials*/
+#testimonials{
+
+
+	height:auto;
+	background-color: #10c9c3;
+	text-align: center;
+	
+}
+
+.testi_text{
+
+	padding: 150px 0px;
+	font-size: 38px;
+	color: white
+}
+.testi_text h4{
+
+	padding-top: 36px;
+	
+}
+.slider_radio{
+
+	
+}
+
+.radio_btn{
+
+	border-radius: 50%;
+    background-color: rgb(176, 232, 230);
+    width: 15px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+/*Section Client*/
+
+#client{
+
+	height: 168px;
+	background-color: #ffffff;
+	padding: 45px;
+}
+
+.sirketler{
+
+	text-align: center;
+}
+.img{
+	margin: 0 93px;
+	display: inline-block;
+	width: 120px;
+}
+.img img{
+
+	width: 100%;
+	height: 100%;
+    margin: 0 69px;
+}
+
+/*Section Need Project*/
+
+#need_project{
+
+	height: 751px;
+	background-color: #f5f5f5;
+
+}
+
+.send_message{
+
+
+	text-align: center;
+	padding-top: 115px;
+}
+
+.send_message h1{
+
+	font-size: 32px;
+	font-weight: bold;
+	padding-bottom: 20px;
+	color: #1d1d1d;
+}
+.send_message p{
+
+	font-size: 12px;
+	color:#787878;
+	line-height: 1.8;
+
+}
+
+#form{
+    
+
+	margin-top: 30px;
+	margin-left: 400px;
+
+	
+
+
+}
+.name{
+    
+    width: 316px;
+    height: 49px;
+    padding: 27px;
+   
+
+	
+}
+.email{
+    
+    width: 316px;
+    height: 49px;
+    padding: 27px;
+
+	
+}
+
+.title{
+    
+    width: 675px;
+    height: 46px;
+    padding: 27px;
+
+	
+}
+
+.comment{
+    
+    width: 675px;
+    height: 169px;
+    padding: 27px;
+
+	
+}
+
+.submit{
+    
+    width: 180px;
+    height: 63px;
+    padding: 27px;
+    background: #10c9c3;
+    color: white;
+    border: 4px solid #c2d8d5;
+    margin-left: 247px;
+
+	
+}
+
+
+
+
+
+
+/*Form Footer*/
+
+#footer{
+
+	height: 300px;
+	background-color: #141414;
+}
+
